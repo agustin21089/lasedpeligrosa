@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Contador de tiempo</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      font-size: 24px;
-      text-align: center;
-    }
-    .dangerous-time {
-      color: red;
-      font-weight: bold;
-    }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <title>Contador de tiempo</title>
+    <style>
+        body {
+            font-family: 'Tilt Neon', cursive;
+            font-size: 24px;
+            text-align: center;
+            background-color: #333;
+            background-image: url('https://loopulo.com/wp-content/uploads/2021/06/Budweiser-Lionel-Messi-torneo-Brasil-cerveza-loopulo-00.jpg');
+        }
+        .dangerous-time {
+        color: red;
+        font-weight: bold;
+        }
 
-    h1 {
-        font-size: 72px;
-        color: #fff;
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
-    }
+        h1 {
+            font-size: 72px;
+            color: #fff;
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 30px #fff, 0 0 15px #ff00de, 0 0 20px #ff00de, 0 0 25px #ff00de, 0 0 30px #ff00de, 0 0 35px #ff00de;
+        }
+        h2{
+            font-size: 160px;
+            color: whitesmoke;
+        }
 
-  </style>
+    </style>
 </head>
 <body>
   <h1>La Sed Peligrosa</h1>
-  <p id="countdown"></p>
+  <h2 id="countdown"></h2>
 
   <script>
     // Set the date we're counting down to
