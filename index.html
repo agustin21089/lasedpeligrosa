@@ -9,13 +9,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
     <title>La sed peligrosa</title>
     <style>
+      body {
+          font-family: 'Tilt Neon', cursive;
+          font-size: 24px;
+          text-align: center;
+          background-color: #333;
+          background-image: url('https://i.imgur.com/0zLWps1.jpeg');
+          /* Estilos para dispositivos móviles */
+      }
+      @media only screen and (max-width: 480px) {
         body {
-            font-family: 'Tilt Neon', cursive;
-            font-size: 24px;
-            text-align: center;
-            background-color: #333;
-            background-image: url('https://i.imgur.com/0zLWps1.jpeg');
+          background-image: url('https://e0.pxfuel.com/wallpapers/896/148/desktop-wallpaper-messi-argentina-seleccion.jpg');
         }
+      }
+
         .dangerous-time {
         color: red;
         font-weight: bold;
@@ -38,20 +45,17 @@
         }
 
         @keyframes mover {
-        0% {
-            transform: translateY(0);
+          0% {
+              transform: translateY(0);
+          }
+          50% {
+              transform: translateY(20px);
+          }
+          100% {
+              transform: translateY(0);
+          }
         }
-        50% {
-            transform: translateY(20px);
-        }
-        100% {
-            transform: translateY(0);
-        }
-        }
-        /* Estilos para dispositivos móviles */
-        @media only screen and (max-width: 480px) {
-          /* Agrega aquí tus estilos para dispositivos móviles */
-        }
+
 
         /* Estilos para tablets */
         @media only screen and (min-width: 481px) and (max-width: 768px) {
