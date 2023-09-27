@@ -64,6 +64,8 @@
   <h2 id="countdown"></h2>
 
   <script>
+    Intl.DateTimeFormat().resolvedOptions().timeZone = "Argentina Standard Time";
+
     // Set the date we're counting down to
     var countDownDate = new Date();
     countDownDate.setDate(countDownDate.getDate() + (3 + 7 - countDownDate.getDay()) % 7);
