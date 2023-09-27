@@ -15,11 +15,20 @@
           text-align: center;
           background-color: #333;
           background-image: url('https://i.imgur.com/0zLWps1.jpeg');
-          /* Estilos para dispositivos móviles */
+
       }
-      @media only screen and (max-width: 480px) {
+      
+      /* Estilos para dispositivos móviles */
+      @media (max-width: 767px) {
         body {
           background-image: url('https://e0.pxfuel.com/wallpapers/896/148/desktop-wallpaper-messi-argentina-seleccion.jpg');
+        }
+      }
+
+      /* Estilos para dispositivos de escritorio */
+      @media (min-width: 768px) {
+        body {
+          background-image: url('https://i.imgur.com/0zLWps1.jpeg');
         }
       }
 
@@ -54,12 +63,6 @@
           100% {
               transform: translateY(0);
           }
-        }
-
-
-        /* Estilos para tablets */
-        @media only screen and (min-width: 481px) and (max-width: 768px) {
-          /* Agrega aquí tus estilos para tablets */
         }
     </style>
 </head>
