@@ -8,13 +8,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    cursor: url("../img/cursor-boleta.png"),default;
+    cursor: url("../img/cursor-lased.png"),default;
     overflow: hidden;
 
 }
-
-
-
 
 /* Estilos para dispositivos de escritorio */
 @media (min-width: 768px) {
@@ -92,8 +89,8 @@ h2{
 
 .sidebar{
   background-color: #2b3035;
-  width: 600px;
-  height: 100%;
+  width: 350px;
+  height: auto;
   overflow: hidden;
   padding: 16px;
   margin: 20px;
@@ -114,6 +111,7 @@ h2{
   body {
     background-image: url('https://e0.pxfuel.com/wallpapers/896/148/desktop-wallpaper-messi-argentina-seleccion.jpg');
   }
+  
   .main-content{
     flex-direction: column-reverse!important;
   }
