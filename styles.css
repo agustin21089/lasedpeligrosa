@@ -19,7 +19,7 @@ body {
 /* Estilos para dispositivos de escritorio */
 @media (min-width: 768px) {
   body {
-    background-image: url('img/bg.jpg');
+    background-image: url('img/bg2.jpg');
   }
 }
 
